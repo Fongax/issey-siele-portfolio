@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Issey Siele</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="7" cy="21" r="2.6" stroke-width="2"/>
+        <circle cx="21" cy="7" r="2.6" stroke-width="2"/>
+        <line x1="9.3" y1="18.8" x2="18.7" y2="9.2" stroke-width="2"/>
+      </svg>
+      <span>
+        <span class="brand__name">Issey Siele</span>
+        <span class="brand__sub">Mechanical Engineering Portfolio</span>
+      </span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="about.html">About Me</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="about-section reveal">
+      <div class="about-section__image">
+        <div class="about-frame">
+          <img src="assets/about-portrait.jpg" alt="Portrait of Issey Siele in formal attire" />
+        </div>
+        <div class="about-frame__label">
+          <span>Issey Siele</span>
+          <span>Fig. 01 / Portrait</span>
+        </div>
+      </div>
+      <div class="about-section__text">
+        <p class="eyebrow">About Me</p>
+        <h1>Mechanical Engineering &amp; Computer Science Student</h1>
+        <p>I am a Mechanical Engineering and Computer Science student at Griffith University with a strong interest in mechanical systems, control, and engineering analysis. I ended up in this degree because I enjoy understanding how things work, breaking problems down, and finding practical ways to improve systems. Over time, that interest has grown into a stronger focus on design, modelling, and solving real engineering problems in a structured way.</p>
+        <p>What motivates me most is the chance to apply technical thinking to work that has a clear purpose. I enjoy the process of analysing a problem, testing ideas, and improving a design rather than just learning theory without context. Through my studies, I have developed skills in CAD modelling, Python-based analysis, prototyping, testing, and iterative problem-solving. I have also applied these skills in a more professional setting through mechanical engineering internship work involving kinematic analysis, motion evaluation, and design improvement.</p>
+        <p>I see myself as someone who is still developing, but who is serious about growth and willing to keep learning. I value persistence, problem-solving, and being able to contribute meaningfully to a team and to a project. Right now, I am looking for opportunities that will help me continue building real industry experience and strengthen my technical skills. In the long term, I want to become an engineer who is adaptable, capable, and trusted to contribute to challenging and worthwhile projects.</p>
+      </div>
+    </section>
+
+    <section class="skills reveal">
+      <div class="skills__head">
+        <div>
+          <p class="eyebrow">Capabilities</p>
+          <h2>Key Strengths</h2>
+        </div>
+        <p>A snapshot of the core skills I bring to engineering projects, from CAD and analysis through to hands-on prototyping and testing.</p>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M16 3 L28 9.5 L28 22.5 L16 29 L4 22.5 L4 9.5 Z"/>
+            <path d="M16 3 L16 16 L28 22.5"/>
+            <path d="M16 16 L4 22.5"/>
+          </svg>
+          <h3>CAD Modelling</h3>
+          <p>Building accurate, manufacturable 3D models and assemblies for analysis and design iteration.</p>
+        </div>
+        <div class="skill-card">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 26 L4 5 L28 5 L28 26"/>
+            <rect x="8" y="16" width="4" height="8"/>
+            <rect x="15" y="10" width="4" height="14"/>
+            <rect x="22" y="13" width="4" height="11"/>
+          </svg>
+          <h3>Python &amp; Data Analysis</h3>
+          <p>Processing and visualising data to support engineering evaluation and decision-making.</p>
+        </div>
+        <div class="skill-card">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="8" cy="24" r="2.6"/>
+            <circle cx="24" cy="8" r="2.6"/>
+            <line x1="10" y1="22" x2="22" y2="10"/>
+            <path d="M5 18 A10 10 0 0 1 14 6"/>
+            <path d="M14 6 L11 6.5 M14 6 L13.2 9"/>
+          </svg>
+          <h3>Kinematic Analysis</h3>
+          <p>Evaluating motion, transmission angles, and mechanism behaviour to improve performance.</p>
+        </div>
+        <div class="skill-card">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M19 5 a5 5 0 0 0 -6.8 6.8 L4 21 l3 3 l9.2 -8.2 A5 5 0 0 0 23 9 Z"/>
+            <circle cx="20" cy="8" r="1.4" fill="currentColor" stroke="none"/>
+          </svg>
+          <h3>Prototyping &amp; Testing</h3>
+          <p>Building physical prototypes, running tests, and iterating on designs based on results.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer blueprint">
+    <div class="site-footer__inner">
+      <div>
+        <a class="brand" href="index.html">
+          <svg class="brand__mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="7" cy="21" r="2.6" stroke-width="2"/>
+            <circle cx="21" cy="7" r="2.6" stroke-width="2"/>
+            <line x1="9.3" y1="18.8" x2="18.7" y2="9.2" stroke-width="2"/>
+          </svg>
+          <span>
+            <span class="brand__name">Issey Siele</span>
+            <span class="brand__sub">Mechanical Engineering Portfolio</span>
+          </span>
+        </a>
+        <p class="site-footer__tagline">Mechanical Engineering (Honours) &amp; Computer Science student building toward a career in design, analysis, and applied problem-solving.</p>
+      </div>
+      <div class="site-footer__col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:issey.siele@griffithuni.edu.au">issey.siele@griffithuni.edu.au</a></li>
+          <li><a href="https://www.linkedin.com/in/isseysiele/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li>Brisbane, QLD</li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>Issey Siele</span>
+      <span>Built &amp; coded from scratch</span>
+    </div>
+  </footer>
+</body>
+</html>
