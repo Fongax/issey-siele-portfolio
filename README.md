@@ -1,6 +1,6 @@
 # Issey Siele Mechanical Engineering Portfolio
 
-A static portfolio website built for GitHub Pages.
+A static portfolio website.
 
 ## Files
 
@@ -14,17 +14,3 @@ A static portfolio website built for GitHub Pages.
 - `script.js`: Mobile menu, scroll-aware header, and scroll-reveal animations
 - `assets/`: Images used by the site
 
-## How to publish on GitHub Pages
-
-1. Create a new GitHub repository.
-2. Upload all files and folders from this website folder to the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/root`, then save.
-6. Wait for GitHub to publish the site.
-
-## Notes
-
-This version is fully static and does not need React, Node.js, or a database. It can be hosted directly with GitHub Pages.
-
-Fonts (Space Grotesk, Inter, JetBrains Mono) are loaded from Google Fonts via the `<link>` tags in each page's `<head>`. No build step is required.
